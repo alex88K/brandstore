@@ -12,28 +12,46 @@
 	 	</ol>
 	</div>
 	<div class="contact-wrap">
-		<div class="container contact-data">		
-			<div class="contact-data-item">
-				<div class="h3">Телефон для связи</div>
-				<div class="contact-item-text"><i class="set-i phone-i"></i><span>+7(495)978-33-11<br/>+7(495)979-40-30</span></div>
+		<div class="container">		
+			<div class="row">
+				<div class="col-md-8 col-sm-6 contact-b">
+					<div class="h3">Контактная информация</div>
+					<div class="contact-data-item">
+						<span class="contact-head"><i class="set-i phone-i"></i>Телефон:</span>
+						<span class="contact-text"><a href="tel:+74952013565">+7 (495) 201-35-65</a><sup>бесплатная&nbsp;консультация<sup></span>
+					</div>
+					<div class="contact-data-item">
+						<span class="contact-head"><i class="set-i envelope-i"></i>Электропочта:</span>
+						<span class="contact-text"><a href="mailto:mail@brandstore.ru">mail@brandstore.ru</a></span>
+					</div>
+					<div class="contact-data-item">
+						<span class="contact-head"><i class="set-i clock-i"></i>Время работы:</span>
+						<span class="contact-text">10:00 — 19:00 (пн-пт)</span>
+					</div>
+					<div class="contact-data-item">
+						<span class="contact-head"><i class="set-i place-i"></i>Адрес:</span>
+						<span class="contact-text">г. Москва, МКАД, 8-й километр, 3к1</span>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 contact-b">
+					<div class="h3">Мы в соцсетях</div>
+					<div class="social social-b">
+	               <a href="#"><i class="set-i instagram-b-i"></i></a>
+	               <a href="#"><i class="set-i vk-b-i"></i></a>
+	               <a href="#"><i class="set-i twitter-b-i"></i></a>
+	            </div>
+				</div>
 			</div>
-			<div class="contact-data-item">
-				<div class="h3">Вопросы и предложения</div>
-				<div class="contact-item-text"><i class="set-i envelope-i"></i><span><a href="mailto:mail@brandstore.ru ">mail@brandstore.ru</a></span></div>
-			</div>
-			<div class="contact-data-item">
-				<div class="h3">Время работы</div>
-				<div class="contact-item-text"><i class="set-i clock-i"></i><span>10:00 — 19:00 (пн-пт)</span></div>
-			</div>
-			<div class="contact-data-item">
-				<div class="h3">Адрес</div>
-				<div class="contact-item-text"><i class="set-i place-i"></i><span>г. Москва, МКАД,<br/>8-й километр, 3к1</span></div>
+			<div class="btn-group text-center">
+				<a href="zakaz.php" class="btn btn-red btn-contact">Узнать стоимость разработки или<br/>продвижения вашего проекта</a>
 			</div>
 		</div>
-
-		<img src="img/map-sample.jpg" width="100%" height="360px" alt="yandec map">
+		<div class="ymap">
+			<div class="h3">Офис в Москве</div>
+			<img src="img/map-sample.jpg" width="100%" height="360px" class="ymap" alt="yandec map">
+		</div>
 		
-		<div class="container">
+		<!-- <div class="container">
 			<h2 class="coffee-cookie">Будем рады встречи с Вами,<br/>угощаем кофе и печеньками :)</h2>
 			<div class="promo-form" id="contact-block">
 				<div class="container">
@@ -73,7 +91,7 @@
 		         </div>
 		      </div>
 		   </div>
-	   </div>
+	   </div> -->
 	</div>
 
 	<?php include_once "footer.php" ?>

@@ -8,6 +8,16 @@
 }
 
 @media screen and (max-width: 1200px) {
+
+	.form-order {
+		input[type="text"],
+		input[type="tel"],
+		input[type="email"],
+		input[type="file"],
+		textarea { width: 100%; }
+		.left-part { text-align: left; }
+	}
+
 	.dropdown-toggle { padding-left: 0; }
 
 	.drop-icon {
@@ -737,6 +747,10 @@
 	.team-dev .team-list {
 		.fleft,
 		.fright { width: 45%; }
+	}
+
+	.form-order {
+		.right-part { float: none; }
 	}
 }
 

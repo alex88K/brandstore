@@ -125,6 +125,8 @@
 
 $(document).ready(function() {
 
+	$('[data-toggle="tooltip"]').tooltip();
+
 /*--Sliders-------------------------*/ 
 
 	var universalCarousel = $('.universal-carousel .owl-carousel');

@@ -28,7 +28,7 @@
             <label for="m-comment">Ваши комментарии и вопросы</label>
           </div>
           <div class="form-group">
-            <input type="submit" name="submit" id="sendmail-submit" class="btn btn-red" value="Оставить заявку">
+            <input type="submit" name="submit" id="sendmail-submit" class="btn btn-red btn-big" value="Оставить заявку">
           </div>
         </form>
       </div>

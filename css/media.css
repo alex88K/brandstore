@@ -1,7 +1,9 @@
 /*--MEDIA------------------*/
 @media screen and (max-width: 1600px) { .offer-client { background-position: left 38%; }
   .offer-client:after { left: 30%; } }
-@media screen and (max-width: 1200px) { .dropdown-toggle { padding-left: 0; }
+@media screen and (max-width: 1200px) { .form-order input[type="text"], .form-order input[type="tel"], .form-order input[type="email"], .form-order input[type="file"], .form-order textarea { width: 100%; }
+  .form-order .left-part { text-align: left; }
+  .dropdown-toggle { padding-left: 0; }
   .drop-icon { position: absolute; z-index: 100; top: 0; height: 50px; width: 50px; margin-left: 30px; text-align: center; background-color: rgba(100, 100, 100, 0.3); cursor: pointer; vertical-align: top; color: rgba(255, 255, 255, 0.8); }
   .drop-icon .glyphicon { right: 18px; margin-top: -6px; }
   .drop-icon:hover .glyphicon-menu-right, .drop-icon:focus .glyphicon-menu-right { color: #fff; }
@@ -195,7 +197,8 @@
   .reason-stack .fleft .reason-stack-item .desc, .reason-stack .fright .reason-stack-item .desc { text-align: center; }
   .inner-promo-custom .container { padding: 25px 15px 50px 25px; }
   .paint-stuff-bg { display: none; }
-  .team-dev .team-list .fleft, .team-dev .team-list .fright { width: 45%; } }
+  .team-dev .team-list .fleft, .team-dev .team-list .fright { width: 45%; }
+  .form-order .right-part { float: none; } }
 @media screen and (max-width: 480px) { .top-carousel .carousel-caption h1 { font-size: 1.8em; }
   .service-item { height: 260px; }
   .nav-tabs li { width: 65px; }

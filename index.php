@@ -327,7 +327,7 @@
             <p>Отправьте нам запрос на рассчет Вашего проекта. Мы вышлем максимально подробную информацию по продвижению Вашего проекта, а также сообщим и сроки.</p>
          </div>
       </div>
-      <button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#sendmail-form">Получить</button>
+      <button class="btn btn-lg btn-red" data-toggle="modal" data-target="#sendmail-form">Получить</button>
    </div>
    <div class="clients">
       <div class="container">

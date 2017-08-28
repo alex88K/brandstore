@@ -231,10 +231,6 @@
   .team-dev .team-list .fleft .team-item, .team-dev .team-list .fright .team-item { margin-left: 0; margin-right: 0; text-align: center; }
   .team-dev .team-list .fleft .team-item .title:after, .team-dev .team-list .fleft .team-item .title:before, .team-dev .team-list .fright .team-item .title:after, .team-dev .team-list .fright .team-item .title:before { display: none; }
   .team-dev .team-item-head { width: auto; }
-  /*--contact-page--*/
-  .contact-wrap .h3 { margin-bottom: 10px; }
-  .contact-wrap .contact-data-item { margin-bottom: 25px; }
-  .contact-wrap .contact-data-item:after { display: none; }
   /*  site develop  */
   .inner-promo-custom img { display: none; }
   .inner-promo img { display: none; }

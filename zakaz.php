@@ -77,6 +77,10 @@
 							<input type="file" name="fileToUpload" id="fileToUpload" value="Добавить файлы...">
 						</div>
 						<div class="captcha-item" id="captcha_3"></div>
+						<div class="form-group personal-data">
+							<input type="checkbox" name="personalInfo" id="personalInfo" checked>
+							<label for="personalInfo">Я согласен на обработку <a href="brandstore/policy.php">моих персональных данных</a></label>
+						</div>
 						<div class="form-group">
 							<input type="submit" name="submit" id="sendmail-submit" class="btn btn-red btn-big" value="Рассчитать заказ">
 						</div>

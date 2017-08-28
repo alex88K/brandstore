@@ -208,17 +208,13 @@ label {
 }
 
 .bookmark-left { 
-	left: 0%; 
+	left: 10%; 
 	margin-left: -20px;
-
-	&.in-view { left: 10%; }
 }
 
 .bookmark-right { 
-	right: 0%; 
+	right: 10%; 
 	margin-right: -20px;
-
-	&.in-view { right: 10%; }
 }
 
 .tooltip.in { opacity: 1; }
@@ -3790,12 +3786,12 @@ a:hover { color: #c1c1c1; }
 		span {
 			position: relative;
 			display: inline-block;
+		}
+		i { 
+			margin-right: 4px; 
 			vertical-align: middle;
 		}
-		i { margin-right: 4px; }
-		.clock-i { 
-			top: 3px; 
-		}
+		.clock-i { top: 1px; }
 	}
 	.contact-head {
 		font-size: 18px;
@@ -3923,6 +3919,21 @@ a:hover { color: #c1c1c1; }
 		float: right; 
 		margin-bottom: 30px;
 	}
+}
+
+.error_message {
+	margin-right: 15px;
+	font-size: 15px;
+	font-weight: 400;
+	color: red;
+}
+
+input.error { border: 2px solid rgba(255,0,0,.8); }
+
+.personal-data {
+	position: relative;
+	top: -5px;
+	label { display: inline; }
 }
 
 .policy {

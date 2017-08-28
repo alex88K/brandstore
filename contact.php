@@ -51,7 +51,7 @@
 			<img src="img/map-sample.jpg" width="100%" height="360px" class="ymap" alt="yandec map">
 		</div>
 		
-		<!-- <div class="container">
+		<div class="container">
 			<h2 class="coffee-cookie">Будем рады встречи с Вами,<br/>угощаем кофе и печеньками :)</h2>
 			<div class="promo-form" id="contact-block">
 				<div class="container">
@@ -91,7 +91,7 @@
 		         </div>
 		      </div>
 		   </div>
-	   </div> -->
+	   </div>
 	</div>
 
 	<?php include_once "footer.php" ?>

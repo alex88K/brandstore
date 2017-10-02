@@ -1,0 +1,823 @@
+<svg  style="display:none">
+	<symbol id="medal-i" viewBox="0 0 56 52">
+	  <defs>
+	    <style>
+	      .medal-i { fill: none; }
+	      .medal-i, .medal2-i {
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <path class="medal-i" d="M4,11V44.8A3.3,3.3,0,0,0,7.16,48H48.29C50,48,52,46.43,52,44.8V11Z"/>
+	  <g>
+	    <circle class="medal2-i" cx="49.98" cy="6.49" r="1.42"/>
+	    <circle class="medal2-i" cx="45.11" cy="6.49" r="1.42"/>
+	    <circle class="medal2-i" cx="40.23" cy="6.49" r="1.42"/>
+	  </g>
+	  <rect class="medal-i" x="1" y="1" width="54" height="50" rx="6.1" ry="6.1"/>
+	  <g>
+	    <polygon class="medal-i" points="27.83 19.9 30.66 18.52 32.13 21.3 35.23 21.84 34.79 24.96 36.98 27.22 34.79 29.48 35.23 32.6 32.13 33.14 30.66 35.92 27.83 34.54 25 35.92 23.53 33.14 20.43 32.6 20.87 29.48 18.68 27.22 20.87 24.96 20.43 21.84 23.53 21.3 25 18.52 27.83 19.9"/>
+	    <polygon class="medal-i" points="21.86 36.1 21.58 35.89 21.25 35.64 19.63 35.36 17.44 38.31 19.77 38.45 20.43 40.54 22.64 37.57 21.86 36.1"/>
+	    <polygon class="medal-i" points="33.46 36.1 33.74 35.89 34.07 35.64 35.69 35.36 37.89 38.31 35.55 38.45 34.89 40.54 32.68 37.57 33.46 36.1"/>
+	   </g>
+	</symbol>
+	<symbol id="wallet-i" viewBox="0 0 57 53.03">
+	  <defs>
+	    <style>
+	      .wallet-i {
+	        fill: none;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <rect class="wallet-i" x="1" y="12.03" width="55" height="40" rx="6.13" ry="6.13"/>
+	  <path class="wallet-i" d="M56,40H45.77C42.38,40,39,36.91,39,33.53V29.23c0-3.39,3.38-6.2,6.77-6.2H55"/>
+	  <circle class="wallet-i" cx="46.43" cy="31.33" r="1.79"/>
+	  <polyline class="wallet-i" points="23.08 12.06 36.98 1.33 47.61 12.06"/>
+	  <polyline class="wallet-i" points="18.78 12.06 23.08 3.79 29.41 6.7"/>
+	</symbol>
+	<symbol id="lens-i" viewBox="0 0 50.22 59.85">
+	  <defs>
+	    <style>
+	      .lens-i, .lens2-i {
+	        fill: none;
+	        stroke-miterlimit: 10;
+	      }
+	      .lens2-i { stroke-linecap: round; }
+	    </style>
+	  </defs>
+	  <circle class="lens-i" cx="18.18" cy="18.18" r="17.18" transform="matrix(0.8, -0.6, 0.6, 0.8, -7.27, 14.54)"/>
+	  <line class="lens-i" x1="28.13" y1="31.75" x2="34.12" y2="39.75"/>
+	  <rect class="lens-i" x="38.02" y="37.45" width="6" height="23" rx="2.75" ry="2.75" transform="translate(-21.16 34.39) rotate(-36.86)"/>
+	  <path class="lens2-i" d="M9.41,25.8q-.27-.31-.52-.65a11.63,11.63,0,0,1,.8-14.9"/>
+	</symbol>
+	<symbol id="complex-i" viewBox="0 0 56 52">
+	  <defs>
+	    <style>
+	      .complex-i { fill: none; }
+	      .complex-i, .complex2-i {
+	        stroke-miterlimit: 10;
+	      }
+	      .complex2-i { fill: #fff; }
+	    </style>
+	  </defs>
+	  <path class="complex-i" d="M4,11V44.8A3.3,3.3,0,0,0,7.16,48H48.29C50,48,52,46.43,52,44.8V11Z"/>
+	  <g>
+	    <circle class="complex2-i" cx="49.98" cy="6.49" r="1.42"/>
+	    <circle class="complex2-i" cx="45.11" cy="6.49" r="1.42"/>
+	    <circle class="complex2-i" cx="40.23" cy="6.49" r="1.42"/>
+	  </g>
+	  <rect class="complex-i" x="1" y="1" width="54" height="50" rx="6.1" ry="6.1"/>
+	  <g>
+	    <circle class="complex-i" cx="28" cy="23.2" r="1.83"/>
+	    <circle class="complex-i" cx="28" cy="35.8" r="1.83"/>
+	    <circle class="complex-i" cx="21.7" cy="29.39" r="1.83" transform="translate(-8.06 50.58) rotate(-89)"/>
+	    <circle class="complex-i" cx="34.3" cy="29.61" r="1.83" transform="translate(4.09 63.38) rotate(-89)"/>
+	    <line class="complex-i" x1="23.53" y1="26.86" x2="25.66" y2="25.03"/>
+	    <line class="complex-i" x1="30.03" y1="33.77" x2="32.16" y2="31.94"/>
+	    <line class="complex-i" x1="32.16" y1="27.27" x2="30.44" y2="25.44"/>
+	    <line class="complex-i" x1="25.66" y1="33.77" x2="23.94" y2="31.94"/>
+	   </g>
+	</symbol>
+	<symbol id="aim-i" viewBox="0 0 120.75 130.59">
+	  <defs>
+	    <style>
+	      .aim-i {
+	        fill: none;
+	        stroke-miterlimit: 10;
+	        stroke-width: 2px;
+	      }
+	    </style>
+	  </defs>
+	      <path class="aim-i" d="M10,87.66A58.41,58.41,0,1,1,43.8,115.35"/>
+	      <path class="aim-i" d="M45,52.92a17.5,17.5,0,1,1,29.73,17.7"/>
+	      <path class="aim-i" d="M23.12,73.19A40.51,40.51,0,1,1,61.25,100a40.87,40.87,0,0,1-5.45-.36"/>
+	      <path class="aim-i" d="M17.31,128.8l.43.38L54.36,87.69l8,6.47L64.13,59.5l-36,5.5,9.25,7.69L.75,114.18"/>
+	</symbol>
+	<symbol id="graphd-i" viewBox="0 0 144.25 119.85">
+	  <defs>
+	    <style>
+	      .graphd-i {
+	        fill: none;
+	        stroke-linecap: round;
+	        stroke-miterlimit: 10;
+	        stroke-width: 2px;
+	      }
+	    </style>
+	  </defs>
+	  <polyline class="graphd-i" points="1 70.47 45.32 27.94 93.61 52.38 143.18 1.1"/>
+	  <polygon class="graphd-i" points="40.77 118.85 14.64 118.85 14.64 82.97 40.77 53.42 40.77 118.85"/>
+	  <polygon class="graphd-i" points="129.41 118.85 103.27 118.85 103.27 65.92 129.41 39.78 129.41 118.85"/>
+	  <polygon class="graphd-i" points="86.23 118.85 60.09 118.85 60.09 51.15 86.23 65.92 86.23 118.85"/>
+	  <polyline class="graphd-i" points="127.7 4.08 143.04 1.24 140.77 16.01"/>
+	</symbol>
+	<symbol id="monitor-i" viewBox="0 0 140.96 129.75">
+	  <defs>
+	    <style>
+	      .monitor-i, .monitor3-i { fill: none; }
+	      .monitor-i, .monitor2-i, .monitor3-i {
+	        stroke-miterlimit: 10;
+	        stroke-width: 2px;
+	      }
+	      .monitor2-i { fill: #fff; }
+	      .monitor3-i { stroke-linecap: round; }
+	    </style>
+	  </defs>
+	  <path class="monitor-i" d="M123,99V26H8v81c0,3.95,3.42,8,7.59,8H113"/>
+	  <g>
+	    <circle class="monitor2-i" cx="119.21" cy="14.28" r="3.44"/>
+	    <circle class="monitor2-i" cx="107.41" cy="14.28" r="3.44"/>
+	    <circle class="monitor2-i" cx="95.6" cy="14.28" r="3.44"/>
+	  </g>
+	  <path class="monitor-i" d="M113,122H15.76A14.76,14.76,0,0,1,1,107.24V15.76A14.76,14.76,0,0,1,15.76,1H117.24A14.76,14.76,0,0,1,132,15.76V100"/>
+	  <g>
+	    <circle class="monitor3-i" cx="84.38" cy="75.4" r="26.25" transform="translate(-28.48 83.67) rotate(-45.97)"/>
+	    <rect class="monitor3-i" x="125.49" y="105.12" width="6.75" height="25.5" rx="1" ry="1" transform="translate(-45.45 128.61) rotate(-45.97)"/>
+	    <line class="monitor3-i" x1="103.25" y1="93.65" x2="119.43" y2="109.28"/>
+	    <path class="monitor3-i" d="M76.15,86.8a14.07,14.07,0,0,1-1.88-21.16q.49-.51,1-1"/>
+	  </g>
+	</symbol>
+	<symbol id="stage1-i" viewBox="0 0 148.91 135.84">
+	  <defs>
+	    <style>
+	      .stage1-i, .stage12-i { fill: none; }
+	      .stage1-i, .stage13-i, .stage14-i { stroke: #d43840; }
+	      .stage1-i, .stage13-i, .stage14-i, .stage12-i {
+	        stroke-miterlimit: 10;
+	        stroke-width: 2px;
+	      }
+	      .stage13-i { fill: #fff; }
+	      .stage14-i { fill: #d43840; }
+	      .stage12-i { stroke: #fff; }
+	    </style>
+	  </defs>
+	  <path class="stage1-i" d="M123,99V26H8v81c0,3.95,3.42,8,7.59,8H113"/>
+	  <g>
+	    <circle class="stage13-i" cx="119.21" cy="14.28" r="3.44"/>
+	    <circle class="stage13-i" cx="107.41" cy="14.28" r="3.44"/>
+	    <circle class="stage13-i" cx="95.6" cy="14.28" r="3.44"/>
+	  </g>
+	  <path class="stage1-i" d="M113,122H15.76A14.76,14.76,0,0,1,1,107.24V15.76A14.76,14.76,0,0,1,15.76,1H117.24A14.76,14.76,0,0,1,132,15.76V100"/>
+	  <circle class="stage14-i" cx="121.66" cy="108.59" r="26.25"/>
+	  <rect class="stage1-i" x="21.38" y="44.67" width="89.03" height="11.33"/>
+	  <g>
+	    <g>
+	      <rect class="stage1-i" x="21.38" y="73" width="5.5" height="5.5"/>
+	      <line class="stage1-i" x1="33" y1="75.75" x2="84.67" y2="75.75"/>
+	    </g>
+	    <g>
+	      <rect class="stage1-i" x="21.38" y="84" width="5.5" height="5.5"/>
+	      <line class="stage1-i" x1="33" y1="86.75" x2="84.67" y2="86.75"/>
+	    </g>
+	    <g>
+	      <rect class="stage1-i" x="21.38" y="95" width="5.5" height="5.5"/>
+	      <line class="stage1-i" x1="33" y1="97.75" x2="84.67" y2="97.75"/>
+	    </g>
+	  </g>
+	  <g>
+	    <circle class="stage12-i" cx="117.81" cy="105.47" r="7.98" transform="translate(-38.84 127.01) rotate(-49.66)"/>
+	    <path class="stage12-i" d="M134.11,117.1a.9.9,0,0,1-.08,1.24l-.45.53a.9.9,0,0,1-1.22.28l-8.55-7.26a.9.9,0,0,1,.08-1.24l.45-.53a.9.9,0,0,1,1.22-.28Z"/>
+	  </g>
+	</symbol>
+	<symbol id="stage2-i" viewBox="0 0 148.91 135.84">
+	  <defs>
+	    <style>
+	      .stage21-i, .stage-24-i { fill: none; }
+	      .stage21-i, .stage22-i, .stage23-i { stroke: #d43840; }
+	      .stage21-i, .stage22-i, .stage23-i, .stage-24-i {
+	        stroke-miterlimit: 10;
+	        stroke-width: 2px;
+	      }
+	      .stage22-i { fill: #fff; }
+	      .stage23-i { fill: #d43840; }
+	      .stage-24-i { stroke: #fff; }
+	    </style>
+	  </defs>
+	  <path class="stage21-i" d="M123,99V26H8v81c0,3.95,3.42,8,7.59,8H113"/>
+	  <g>
+	    <circle class="stage22-i" cx="119.21" cy="14.28" r="3.44"/>
+	    <circle class="stage22-i" cx="107.41" cy="14.28" r="3.44"/>
+	    <circle class="stage22-i" cx="95.6" cy="14.28" r="3.44"/>
+	  </g>
+	  <path class="stage21-i" d="M113,122H15.76A14.76,14.76,0,0,1,1,107.24V15.76A14.76,14.76,0,0,1,15.76,1H117.24A14.76,14.76,0,0,1,132,15.76V100"/>
+	  <circle class="stage23-i" cx="121.66" cy="108.59" r="26.25"/>
+	  <g>
+	    <path class="stage-24-i" d="M136.45,111.65a14.82,14.82,0,0,0,.33-2.71l-1.57-1.08A13.24,13.24,0,0,0,135,106l1.27-1.43a14.68,14.68,0,0,0-1-2.56l-1.9-.23a13.25,13.25,0,0,0-1.07-1.54l.46-1.85a14.86,14.86,0,0,0-2.07-1.82l-1.79.68a13.19,13.19,0,0,0-1.63-.85l-.45-1.85a14.69,14.69,0,0,0-2.71-.65l-1.27,1.44-.83,0c-.32,0-.64,0-1,0l-1.27-1.44a14.68,14.68,0,0,0-2.73.69l-.46,1.87a13.19,13.19,0,0,0-1.54.81l-1.79-.68a14.87,14.87,0,0,0-2.12,1.9l.46,1.87a13.24,13.24,0,0,0-1,1.4l-1.91.23a14.68,14.68,0,0,0-1,2.68l1.28,1.44a13.23,13.23,0,0,0-.2,1.67l-1.58,1.09a14.82,14.82,0,0,0,.34,2.85l1.79.68A13.12,13.12,0,0,0,110,114l-.9,1.7a14.82,14.82,0,0,0,1.62,2.35l1.9-.23a13.3,13.3,0,0,0,1.28,1.14v1.93a14.74,14.74,0,0,0,2.5,1.33l1.57-1.09a13.13,13.13,0,0,0,1.71.43l.89,1.71c.48,0,1,.07,1.47.07s.89,0,1.33-.06l.88-1.69a13.14,13.14,0,0,0,1.77-.42l1.58,1.09a14.74,14.74,0,0,0,2.45-1.28V119a13.29,13.29,0,0,0,1.39-1.23l1.9.23a14.82,14.82,0,0,0,1.57-2.25l-.89-1.69a13.13,13.13,0,0,0,.67-1.77Z"/>
+	    <circle class="stage-24-i" cx="122" cy="108.59" r="7.24"/>
+	  </g>
+	  <rect class="stage21-i" x="19" y="38.67" width="22" height="64.83"/>
+	  <rect class="stage21-i" x="49" y="38.67" width="61.85" height="36.08"/>
+	  <path class="stage21-i" d="M81.67,103.5H49V83h54"/>
+	  <polyline class="stage21-i" points="50 72.71 61.67 61.33 71.67 67.5 79.41 59.67 91.41 47.67 99.05 53.33 110.21 48.67"/>
+	</symbol>
+	<symbol id="stage3-i" viewBox="0 0 148.91 135.84">
+	  <defs>
+	    <style>
+	      .stage3-i, .stage33-i { fill: none; }
+	      .stage3-i, .stage31-i, .stage32-i { stroke: #d43840; }
+	      .stage3-i, .stage31-i, .stage32-i, .stage33-i {
+	        stroke-miterlimit: 10;
+	        stroke-width: 2px;
+	      }
+	      .stage31-i { fill: #fff; }
+	      .stage32-i { fill: #d43840; }
+	      .stage33-i {
+	        stroke: #fff;
+	        stroke-linecap: round;
+	      }
+	    </style>
+	  </defs>
+	  <path class="stage3-i" d="M123,99V26H8v81c0,3.95,3.42,8,7.59,8H113"/>
+	  <g>
+	    <circle class="stage31-i" cx="119.21" cy="14.28" r="3.44"/>
+	    <circle class="stage31-i" cx="107.41" cy="14.28" r="3.44"/>
+	    <circle class="stage31-i" cx="95.6" cy="14.28" r="3.44"/>
+	  </g>
+	  <path class="stage3-i" d="M113,122H15.76A14.76,14.76,0,0,1,1,107.24V15.76A14.76,14.76,0,0,1,15.76,1H117.24A14.76,14.76,0,0,1,132,15.76V100"/>
+	  <circle class="stage32-i" cx="121.66" cy="108.59" r="26.25"/>
+	  <polyline class="stage3-i" points="8 90.33 31.33 82.5 47.33 66.67 72 48.67 82 65.5 103.96 50.5 123 41.67"/>
+	  <circle class="stage31-i" cx="33.23" cy="80.5" r="5.5"/>
+	  <circle class="stage31-i" cx="47.23" cy="68.5" r="5.5"/>
+	  <circle class="stage31-i" cx="72" cy="50.17" r="5.5"/>
+	  <circle class="stage31-i" cx="83" cy="64.5" r="5.5"/>
+	  <circle class="stage31-i" cx="103.96" cy="51.67" r="5.5"/>
+	  <g>
+	    <polyline class="stage33-i" points="106.56 111.48 116.7 101.76 127.74 107.35 139.07 95.63"/>
+	    <polygon class="stage33-i" points="115.66 122.55 109.68 122.55 109.68 114.34 115.66 107.59 115.66 122.55"/>
+	    <polygon class="stage33-i" points="135.92 122.55 129.94 122.55 129.94 110.45 135.92 104.47 135.92 122.55"/>
+	    <polygon class="stage33-i" points="126.05 122.55 120.07 122.55 120.07 107.07 126.05 110.45 126.05 122.55"/>
+	    <polyline class="stage33-i" points="135.53 96.31 139.04 95.66 138.52 99.04"/>
+	  </g>
+	</symbol>
+
+<!-- wee icons -->
+
+	<symbol id="graph-i" viewBox="0 0 19.17 18.55">
+	  <defs>
+	    <style>
+	      .graph-i {
+	        fill: none;
+	        stroke-linecap: round;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <polyline class="graph-i" points="1 11.05 6.08 6.05 11.5 9.05 17.75 1.55"/>
+	  <polyline class="graph-i" points="13.58 2.13 17.75 1.22 18.17 5.23"/>
+	  <line class="graph-i" x1="6.17" y1="12.55" x2="6.17" y2="17.55"/>
+	  <line class="graph-i" x1="11.17" y1="15.55" x2="11.17" y2="17.55"/>
+	  <line class="graph-i" x1="16.17" y1="10.55" x2="16.17" y2="17.55"/>
+	</symbol>
+	<symbol id="doc-i" viewBox="0 0 15 19">
+	  <defs>
+	    <style>
+	      .doc-i {
+	        fill: none;
+	        stroke-linecap: round;
+	        stroke-miterlimit: 10;
+	      }
+	      .doc2-i { fill: #d43840; }
+	    </style>
+	  </defs>
+	  <path class="doc-i" d="M14,17a1,1,0,0,1-1,1H2a1,1,0,0,1-1-1V1.59C1,1.06,1.45,1,2,1H13c.55,0,1,.06,1,.59Z"/>
+	  <line class="doc-i" x1="8" y1="6" x2="11" y2="6"/>
+	  <line class="doc-i" x1="8" y1="9" x2="11" y2="9"/>
+	  <line class="doc-i" x1="4" y1="13" x2="11" y2="13"/>
+	  <circle class="doc2-i" cx="4.06" cy="6.06" r="1.06"/>
+	  <circle class="doc2-i" cx="4.06" cy="9.06" r="1.06"/>
+	</symbol>
+	<symbol id="case-i" viewBox="0 0 17.01 18">
+	  <defs>
+	    <style>
+	      .case-i {
+	        fill: none;
+	        stroke-linecap: round;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <rect class="case-i" x="1" y="4" width="15" height="13" rx="2.66" ry="2.66"/>
+	  <path class="case-i" d="M1,6.77S3.32,9.56,4.4,10a14.32,14.32,0,0,0,8.13,0A20.57,20.57,0,0,0,16,7.06"/>
+	  <path class="case-i" d="M3.66,3.68A2.75,2.75,0,0,1,6.48,1h3.76c1.56,0,3.19,1.2,3.19,2.67"/>
+	  <rect class="case-i" x="7" y="11" width="3" height="3" rx="1" ry="1"/>
+	</symbol>
+	<symbol id="clock-i" viewBox="0 0 17.5 17.5">
+	  <defs>
+	    <style>
+	      .clock-i, .clock2-i {
+	        fill: none;
+	        stroke-miterlimit: 10;
+	      }
+	      .clock2-i {
+	        stroke-linecap: round;
+	      }
+	    </style>
+	  </defs>
+	  <circle class="clock-i" cx="8.75" cy="8.75" r="7.75"/>
+	  <polyline class="clock2-i" points="8.5 6 8.5 9 11 11.33"/>
+	</symbol>
+	<symbol id="byrd-i" viewBox="0 0 13 12">
+		<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="0" fill="#fff"
+	 	d="M10.759,2.650 L4.759,9.650 L4.538,9.461 L4.293,9.706 L1.293,6.707 L2.707,5.292 L4.405,6.990 L9.241,1.348 L10.759,2.650 Z"/>
+	</symbol>
+	<symbol id="sscreen-i" viewBox="0 0 18 15">
+	  <defs>
+	    <style>
+	      .sscreen-i {
+	        fill: none;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <g>
+	    <circle class="sscreen-i" cx="8.3" cy="8.55" r="2.1" transform="translate(-3.62 8.46) rotate(-45.37)"/>
+	    <line class="sscreen-i" x1="9.75" y1="10.01" x2="12.02" y2="12.25"/>
+	  </g>
+	  <rect class="sscreen-i" x="1" y="1" width="16" height="13"/>
+	  <line class="sscreen-i" x1="1" y1="4" x2="17" y2="4"/>
+	  <line class="sscreen-i" x1="13" y1="2" x2="13" y2="4"/>
+	</symbol>
+	<symbol id="read-i" viewBox="0 0 17 18.69">
+	  <defs>
+	    <style>
+	      .read-i {
+	        fill: none;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <polygon class="read-i" points="16 1 1 1 1 13 8.96 13 13 16.5 13 14.29 13 13 16 13 16 1"/>
+	  <line class="read-i" x1="12" y1="5" x2="5" y2="5"/>
+	  <line class="read-i" x1="12" y1="9" x2="5" y2="9"/>
+	</symbol>
+	<symbol id="agraph-i" viewBox="0 0 17 16">
+	  <defs>
+	    <style>
+	      .agraph-i {
+	        fill: none;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <g>
+	    <line class="agraph-i" x1="3" x2="3" y2="14"/>
+	    <line class="agraph-i" y1="3" x2="3" y2="3"/>
+	    <line class="agraph-i" y1="11" x2="3" y2="11"/>
+	    <line class="agraph-i" y1="7" x2="3" y2="7"/>
+	  </g>
+	  <g>
+	    <line class="agraph-i" x1="3" y1="13" x2="17" y2="13"/>
+	    <line class="agraph-i" x1="6" y1="16" x2="6" y2="13"/>
+	    <line class="agraph-i" x1="14" y1="16" x2="14" y2="13"/>
+	    <line class="agraph-i" x1="10" y1="16" x2="10" y2="14"/>
+	  </g>
+	  <polyline class="agraph-i" points="3 11 8.63 5 11.25 7.5 15 4"/>
+	  <polyline class="agraph-i" points="11.75 4 15.09 3.66 15 7"/>
+	</symbol>
+	<symbol id="ok-i" viewBox="0 0 17.53 20.78">
+	  <defs>
+	    <style>
+	      .ok-i {
+	        fill: none;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <path class="ok-i" d="M10.09,7.89c1.54.11,2.9.18,4.26.32a2.86,2.86,0,0,1,1.11.4c1.33.78,1.42,1.4.34,2.6A2,2,0,0,1,16,13.65c-.22.4.18,1.1,0,1.56a3.14,3.14,0,0,0-.3,2c.09.42-.69,1.23-1.26,1.52a9.76,9.76,0,0,1-6.22.95c-1.76-.3-4.43-2.84-7.11-1.89C.91,16.45,1,12.17,1.25,12c1.51-.82,3.57-2.28,4-3.89A3.28,3.28,0,0,1,7,5.89,4.18,4.18,0,0,0,9.6,2.26c0-.7.31-1.25,1.18-1.26a1.36,1.36,0,0,1,1.48,1.26,4.75,4.75,0,0,1-.87,3.59C11,6.5,10.57,7.13,10.09,7.89Z"/>
+	  <line class="ok-i" x1="3.52" y1="10.29" x2="3.52" y2="17.29"/>
+	</symbol>
+	<symbol id="text2-i" viewBox="0 0 18 17.69">
+	  <defs>
+	    <style>
+	      .text2-i {
+	        fill: none;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <polygon class="text2-i" points="15 15 12.5 16.5 9 14 6.06 16 3 15 3 1 15 1 15 15"/>
+	  <line class="text2-i" y1="1" x2="18" y2="1"/>
+	  <line class="text2-i" x1="6" y1="6" x2="13" y2="6"/>
+	  <line class="text2-i" x1="6" y1="9" x2="11" y2="9"/>
+	</symbol>
+	<symbol id="tag-i" viewBox="0 0 19.95 19.06">
+	  <defs>
+	    <style>
+	      .tag-i {
+	        fill: none;
+	        stroke-miterlimit: 10;
+	      }
+	      .tag2-i { fill: #d43840; }
+	    </style>
+	  </defs>
+	  <polygon class="tag-i" points="7.93 17.65 1.41 10.06 9.94 2.74 14.85 1.16 18.76 5.71 16.46 10.32 7.93 17.65"/>
+	  <circle class="tag2-i" cx="14.08" cy="5.81" r="1.53" transform="translate(-0.38 10.58) rotate(-40.66)"/>
+	  <line class="tag-i" x1="19.08" y1="1.48" x2="14.53" y2="5.39"/>
+	</symbol>
+	<symbol id="sscreen2-i" viewBox="0 0 21.74 17">
+	  <defs>
+	    <style>
+	      .sscreen2-i {
+	        fill: none;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <polyline class="sscreen2-i" points="12 11 1 11 1 1 15 1 15 3"/>
+	  <polyline class="sscreen2-i" points="8 12 8 16 5.83 16 11 16"/>
+	  <g>
+	    <circle class="sscreen2-i" cx="13.97" cy="7.54" r="3.98" transform="translate(-1.21 12.19) rotate(-45.37)"/>
+	    <line class="sscreen2-i" x1="16.72" y1="10.31" x2="21.03" y2="14.56"/>
+	  </g>
+	</symbol>
+	<symbol id="bulbon-i" viewBox="0 0 17 18.3">
+	  <defs>
+	    <style>
+	      .bulbon-i {
+	        fill: none;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <path class="bulbon-i" d="M13.49,5.5a5,5,0,1,0-9.95,1A14.34,14.34,0,0,0,5.4,12.09,13.4,13.4,0,0,1,7,17.2l2.6.07s.49-2.41.83-3.43C11.43,10.93,13.82,8.8,13.49,5.5Z"/>
+	  <line class="bulbon-i" x1="2" y1="5.98" y2="5.98"/>
+	  <line class="bulbon-i" x1="2" y1="3.23" x2="1" y2="1.98"/>
+	  <line class="bulbon-i" x1="1" y1="10.23" x2="2" y2="8.98"/>
+	  <line class="bulbon-i" x1="15" y1="5.98" x2="17" y2="5.98"/>
+	  <line class="bulbon-i" x1="15" y1="3.23" x2="16" y2="1.98"/>
+	  <line class="bulbon-i" x1="16" y1="10.23" x2="15" y2="8.98"/>
+	  <line class="bulbon-i" x1="6" y1="12.98" x2="11" y2="12.98"/>
+	</symbol>
+	<symbol id="notif-i" viewBox="0 0 23 20.06">
+	  <defs>
+	    <style>
+	      .notif-i {
+	        fill: none;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <polyline class="notif-i" points="15 12 15.07 12 19 15 19 13 19 12 22 12 22 1 8 1 8 4"/>
+	  <polygon class="notif-i" points="1 4 15 4 15 15 7.81 15 4 18 4 16 4 15 1 15 1 4"/>
+	  <line class="notif-i" x1="5" y1="8" x2="11" y2="8"/>
+	  <line class="notif-i" x1="5" y1="11" x2="11" y2="11"/>
+	</symbol>
+	<symbol id="sheet2-i" viewBox="0 0 14 18">
+	  <defs>
+	    <style>
+	      .sheet2-i {
+	        fill: none;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <rect class="sheet2-i" x="1" y="1" width="12" height="16"/>
+	  <g>
+	    <line class="sheet2-i" x1="3" y1="6" x2="5" y2="6"/>
+	    <line class="sheet2-i" x1="6" y1="6" x2="11" y2="6"/>
+	  </g>
+	  <g>
+	    <line class="sheet2-i" x1="3" y1="9" x2="5" y2="9"/>
+	    <line class="sheet2-i" x1="6" y1="9" x2="11" y2="9"/>
+	  </g>
+	  <g>
+	    <line class="sheet2-i" x1="3" y1="12" x2="5" y2="12"/>
+	    <line class="sheet2-i" x1="6" y1="12" x2="11" y2="12"/>
+	  </g>
+	</symbol>
+
+<!-- med icons -->
+	
+	<symbol id="coins-i" viewBox="0 0 42.77 37">
+	  <defs>
+	    <style>
+	      .coins-i {
+	        fill: none;
+	        stroke-linecap: round;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <g>
+	    <ellipse class="coins-i" cx="18.83" cy="9" rx="18.33" ry="8.5"/>
+	    <path class="coins-i" d="M37.17,13c0,4.69-8.21,8.5-18.33,8.5S.5,17.69.5,13"/>
+	    <line class="coins-i" x1="0.5" y1="13" x2="0.5" y2="9"/>
+	    <line class="coins-i" x1="37.17" y1="13" x2="37.17" y2="10"/>
+	    <line class="coins-i" x1="5.6" y1="14.88" x2="5.6" y2="18.73"/>
+	    <line class="coins-i" x1="10.83" y1="17.25" x2="10.83" y2="20"/>
+	    <line class="coins-i" x1="16.5" y1="17.5" x2="16.5" y2="20.5"/>
+	    <line class="coins-i" x1="21.92" y1="17.5" x2="21.92" y2="21.4"/>
+	    <line class="coins-i" x1="27.33" y1="17.25" x2="27.33" y2="20"/>
+	    <line class="coins-i" x1="31.75" y1="15.33" x2="31.75" y2="18.78"/>
+	  </g>
+	  <g>
+	    <path class="coins-i" d="M37.05,11.06c3.23,1.53,5.22,3.63,5.22,5.94,0,4.69-8.21,8.5-18.33,8.5S5.6,21.69,5.6,17a4.16,4.16,0,0,1,.28-1.48"/>
+	    <path class="coins-i" d="M42.27,21c0,4.69-8.21,8.5-18.33,8.5S5.6,25.69,5.6,21"/>
+	    <line class="coins-i" x1="5.6" y1="21" x2="5.6" y2="17"/>
+	    <line class="coins-i" x1="42.27" y1="21" x2="42.27" y2="18"/>
+	    <line class="coins-i" x1="10.7" y1="22.88" x2="10.7" y2="26.73"/>
+	    <line class="coins-i" x1="15.93" y1="25.5" x2="15.93" y2="28"/>
+	    <line class="coins-i" x1="21.6" y1="25.5" x2="21.6" y2="28.5"/>
+	    <line class="coins-i" x1="27.02" y1="25.5" x2="27.02" y2="29.4"/>
+	    <line class="coins-i" x1="32.43" y1="25.25" x2="32.43" y2="28"/>
+	    <path class="coins-i" d="M36.85,26.75"/>
+	  </g>
+	  <g>
+	    <path class="coins-i" d="M37.1,23.18a1.84,1.84,0,0,1,.06.82c0,4.69-8.21,8.5-18.33,8.5S.5,28.69.5,24c0-2,1.44-3.78,3.87-5.22"/>
+	    <path class="coins-i" d="M37.17,28c0,4.69-8.21,8.5-18.33,8.5S.5,32.69.5,28"/>
+	    <line class="coins-i" x1="0.5" y1="28" x2="0.5" y2="24"/>
+	    <line class="coins-i" x1="37.17" y1="28" x2="37.17" y2="25"/>
+	    <line class="coins-i" x1="5.6" y1="29.88" x2="5.6" y2="33.73"/>
+	    <line class="coins-i" x1="10.83" y1="32.5" x2="10.83" y2="35"/>
+	    <line class="coins-i" x1="16.5" y1="32.5" x2="16.5" y2="35.92"/>
+	    <line class="coins-i" x1="21.92" y1="32.5" x2="21.92" y2="36.4"/>
+	    <line class="coins-i" x1="27.33" y1="32.25" x2="27.33" y2="35"/>
+	    <line class="coins-i" x1="31.75" y1="30.03" x2="31.75" y2="33.75"/>
+	  </g>
+	</symbol>
+	<symbol id="code-i" viewBox="0 0 40.08 37">
+	  <defs>
+	    <style>
+	      .code-i {
+	        fill: none;
+	        stroke-linecap: round;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <path class="code-i" d="M31.74.5H3.33A2.83,2.83,0,0,0,.5,3.33V33.67A2.83,2.83,0,0,0,3.33,36.5H36.75a2.83,2.83,0,0,0,2.83-2.83V8.34Z"/>
+	  <polyline class="code-i" points="31.42 1.08 31.42 8.08 39 8.08"/>
+	  <g>
+	    <line class="code-i" x1="14.5" y1="14.83" x2="11.5" y2="17.83"/>
+	    <line class="code-i" x1="11.5" y1="17.83" x2="14.5" y2="20.83"/>
+	  </g>
+	  <g>
+	    <line class="code-i" x1="24.5" y1="14.83" x2="27.5" y2="17.83"/>
+	    <line class="code-i" x1="27.5" y1="17.83" x2="24.5" y2="20.83"/>
+	  </g>
+	  <line class="code-i" x1="22.33" y1="11" x2="16" y2="26.33"/>
+	</symbol>
+	<symbol id="calendar-i" viewBox="0 0 40.83 39.67">
+	  <defs>
+	    <style>
+	      .calendar-i {
+	        fill: none;
+	        stroke-linecap: round;
+	        stroke-miterlimit: 10;
+	      }
+	      .calendar2-i {
+	        stroke: .1px;
+	        stroke-color: #fff;
+	        font-size: 16px;
+	        fill: #d43840;
+	        font-family: Roboto-Light, Roboto;
+	      }
+	    </style>
+	  </defs>
+	  <rect class="calendar-i" x="0.5" y="3.17" width="39.83" height="36" rx="2.83" ry="2.83"/>
+	  <line class="calendar-i" x1="1.08" y1="14.08" x2="40.33" y2="14.08"/>
+	  <line class="calendar-i" x1="10.33" y1="0.5" x2="10.33" y2="5.67"/>
+	  <line class="calendar-i" x1="31.33" y1="0.5" x2="31.33" y2="5.67"/>
+	  <line class="calendar-i" x1="20.33" y1="0.5" x2="20.33" y2="5.67"/>
+	  <text class="calendar2-i" transform="translate(14.92 31.79)">6</text>
+	</symbol>
+	<symbol id="rise-i" viewBox="0 0 39.67 39.88">
+	  <defs>
+	    <style>
+	      .rise-i {
+	        fill: none;
+	        stroke-linecap: round;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <g>
+	    <line class="rise-i" x1="3.75" y1="0.5" x2="3.75" y2="35.92"/>
+	    <line class="rise-i" x1="0.5" y1="4" x2="3.75" y2="4"/>
+	    <line class="rise-i" x1="0.5" y1="31" x2="3.75" y2="31"/>
+	    <line class="rise-i" x1="0.5" y1="17" x2="3.75" y2="17"/>
+	    <line class="rise-i" x1="0.5" y1="10" x2="3.75" y2="10"/>
+	    <line class="rise-i" x1="0.5" y1="24" x2="3.75" y2="24"/>
+	  </g>
+	  <g>
+	    <line class="rise-i" x1="39.17" y1="36.13" x2="3.75" y2="36.12"/>
+	    <line class="rise-i" x1="35.67" y1="39.38" x2="35.67" y2="36.13"/>
+	    <line class="rise-i" x1="8.67" y1="39.37" x2="8.67" y2="36.12"/>
+	    <line class="rise-i" x1="22.67" y1="39.37" x2="22.67" y2="36.12"/>
+	    <line class="rise-i" x1="29.67" y1="39.38" x2="29.67" y2="36.13"/>
+	    <line class="rise-i" x1="15.67" y1="39.37" x2="15.67" y2="36.12"/>
+	  </g>
+	  <polyline class="rise-i" points="34.92 6.58 17.92 18.75 13.25 14.25 3.75 21.25"/>
+	  <line class="rise-i" x1="32.06" y1="6.58" x2="34.92" y2="6.58"/>
+	  <line class="rise-i" x1="34.91" y1="6.58" x2="34" y2="9.29"/>
+	</symbol>
+	<symbol id="screen-i" viewBox="0 0 44.2 33.29">
+	  <defs>
+	    <style>
+	      .screen-i {
+	        fill: none;
+	        stroke-linecap: round;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <g>
+	    <path class="screen-i" d="M38.13,25.39a2.82,2.82,0,0,1-1.38.36H3.33A2.83,2.83,0,0,1,.5,22.92V3.33A2.83,2.83,0,0,1,3.33.5H36.75a2.83,2.83,0,0,1,2.83,2.83V22.63"/>
+	    <rect class="screen-i" x="18.12" y="25.75" width="6" height="4.63"/>
+	    <path class="screen-i" d="M13.76,32.79s0-.05,0-.08A2.21,2.21,0,0,1,16,30.5h9.83A2.21,2.21,0,0,1,28,32.71s0,.06,0,.08Z"/>
+	    <g>
+	      <circle class="screen-i" cx="31.27" cy="16.72" r="5.75" transform="translate(-2.43 27.75) rotate(-46.27)"/>
+	      <path class="screen-i" d="M43.23,26.09a1.5,1.5,0,0,1,0,2.12h0a1.5,1.5,0,0,1-2.12,0l-5.69-5.44a1.5,1.5,0,0,1,0-2.12h0a1.5,1.5,0,0,1,2.12,0Z"/>
+	    </g>
+	    <line class="screen-i" x1="6" y1="16.13" x2="6" y2="22.47"/>
+	    <line class="screen-i" x1="9" y1="11.63" x2="9" y2="22.47"/>
+	    <line class="screen-i" x1="12" y1="8.25" x2="12" y2="22.47"/>
+	  </g>
+	</symbol>
+	<symbol id="gift-i" viewBox="0 0 40.83 40.66">
+	  <defs>
+	    <style>
+	      .gift-i {
+	        fill: none;
+	        stroke-linecap: round;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <path class="gift-i" d="M40.33,11.33A2.83,2.83,0,0,0,37.5,8.49H3.33A2.83,2.83,0,0,0,.5,11.33v5.83H3.28c-.09.27-.15,20.17-.15,20.17A3,3,0,0,0,6.2,40.16H35.06a3,3,0,0,0,3.07-2.83s-.06-19.9-.15-20.17h2.35Z"/>
+	  <polygon class="gift-i" points="26.13 31.82 20.13 26.82 14.13 31.82 14.13 8.49 26.13 8.49 26.13 31.82"/>
+	  <line class="gift-i" x1="2.71" y1="17.16" x2="11.71" y2="17.16"/>
+	  <line class="gift-i" x1="28.71" y1="17.16" x2="37.71" y2="17.16"/>
+	  <path class="gift-i" d="M33.43,4.13c-1.09-1-5.78-.91-10.48.1-.92.2-1.77.42-2.53.65-.77-.23-1.62-.45-2.53-.65-4.7-1-9.4-1.06-10.48-.1S9.25,6.69,14,7.7a37.08,37.08,0,0,0,3.79.61,14,14,0,0,0,2.68.17,14,14,0,0,0,2.68-.17,37.09,37.09,0,0,0,3.79-.61C31.59,6.69,34.52,5.09,33.43,4.13Z"/>
+	  <path class="gift-i" d="M17.49,3.7q0-.13,0-.26a2.94,2.94,0,1,1,5.78.74"/>
+	</symbol>
+	<symbol id="rise2-i" viewBox="0 0 37.31 36.65">
+	  <defs>
+	    <style>
+	      .rise22-i {
+	        fill: none;
+	        stroke-linecap: round;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <path class="rise22-i" d="M36.64,14.27,34,.77l-12.66,7,6.42,2.72c-1.9,3.7-6.1,7.07-11.55,8.8-5.81,1.84-11.54,1.32-15.22-1,1.77,4.61,9.9,6.18,18.44,3.48,6.28-2,11-5.73,12.66-9.48Z"/>
+	  <path class="rise22-i" d="M11.51,35V29.15a2.76,2.76,0,1,0-5.51,0V35a2.74,2.74,0,0,0,.25,1.13h5A2.74,2.74,0,0,0,11.51,35Z"/>
+	  <path class="rise22-i" d="M21.51,34.5v-7a3,3,0,0,0-2.76-3.27A3,3,0,0,0,16,27.54v7a3.7,3.7,0,0,0,.39,1.65h4.74A3.7,3.7,0,0,0,21.51,34.5Z"/>
+	  <path class="rise22-i" d="M31.51,35.39V23.15a2.76,2.76,0,1,0-5.51,0V35.39a2.73,2.73,0,0,0,.12.76h5.27A2.73,2.73,0,0,0,31.51,35.39Z"/>
+	</symbol>
+	<symbol id="baloon-i" viewBox="0 0 40.25 40.32">
+	  <defs>
+	    <style>
+	      .baloon-i {
+	        fill: none;
+	        stroke-linecap: round;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <rect class="baloon-i" x="0.5" y="3.82" width="39.25" height="36" rx="2.83" ry="2.83"/>
+	  <path class="baloon-i" d="M3.33,3.82C11.13,3.18,36.39.51,36.39.51A2.83,2.83,0,0,1,39.44,3.1l.25,3.08"/>
+	  <path class="baloon-i" d="M23,34.82a1.94,1.94,0,0,0-1-2.59c-.69-.34-1.82-.24-1.83-1.29s1.38-1.44,1.88-2.24a2.57,2.57,0,0,0-1-3.34c-1.58-1.05-3.4-1.46-4.77-2.88A8.24,8.24,0,0,1,14,16.79a7.74,7.74,0,0,1,7.5-8,7.74,7.74,0,0,1,7.5,8,7.74,7.74,0,0,1-7.5,8c-.27,0-1.36,0-1.63,0"/>
+	</symbol>
+	<symbol id="wallet2-i" viewBox="0 0 42.76 36.42">
+	  <defs>
+	    <style>
+	      .wallet2-i {
+	        fill: none;
+	        stroke-linecap: round;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <path class="wallet2-i" d="M40.12,26.11v7a2.83,2.83,0,0,1-2.83,2.83h-34A2.83,2.83,0,0,1,.5,33.08V3.33A2.83,2.83,0,0,1,3.33.5h34a2.83,2.83,0,0,1,2.83,2.83v4.1"/>
+	  <path class="wallet2-i" d="M42.26,8.11H32C30.88,8.11,30,9.37,30,10.94V22.52c0,1.57.93,2.83,2.08,2.83H42.26Z"/>
+	  <circle class="wallet2-i" cx="34.44" cy="17.11" r="2.05"/>
+	</symbol>
+	<symbol id="sheet-i" viewBox="0 0 33.17 36.42">
+	  <defs>
+	    <style>
+	      .sheet-i {
+	        fill: none;
+	        stroke-linecap: round;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <rect class="sheet-i" x="0.5" y="0.5" width="32.17" height="35.42" rx="2.83" ry="2.83"/>
+	  <g>
+	    <path class="sheet-i" d="M9.67,9.83a2.08,2.08,0,0,1-2.08,2.08h0A2.08,2.08,0,0,1,5.5,9.83h0A2.08,2.08,0,0,1,7.58,7.75h0A2.08,2.08,0,0,1,9.67,9.83Z"/>
+	    <line class="sheet-i" x1="12.33" y1="9.83" x2="27.83" y2="9.83"/>
+	  </g>
+	  <g>
+	    <path class="sheet-i" d="M9.67,17.83a2.08,2.08,0,0,1-2.08,2.08h0A2.08,2.08,0,0,1,5.5,17.83h0a2.08,2.08,0,0,1,2.08-2.08h0a2.08,2.08,0,0,1,2.08,2.08Z"/>
+	    <line class="sheet-i" x1="12.33" y1="17.83" x2="27.83" y2="17.83"/>
+	  </g>
+	  <g>
+	    <path class="sheet-i" d="M9.67,25.83a2.08,2.08,0,0,1-2.08,2.08h0A2.08,2.08,0,0,1,5.5,25.83h0a2.08,2.08,0,0,1,2.08-2.08h0a2.08,2.08,0,0,1,2.08,2.08Z"/>
+	    <line class="sheet-i" x1="12.33" y1="25.83" x2="27.83" y2="25.83"/>
+	  </g>
+	</symbol>
+<!-- contact-promotion -->
+	<symbol id="table-i" viewBox="0 0 37.99 32.22">
+	  <defs>
+	    <style>
+	      .table-i {
+	        fill: none;
+	        stroke: #d43840;
+	        stroke-linecap: round;
+	        stroke-miterlimit: 10;
+	        stroke-width: 2px;
+	      }
+	    </style>
+	  </defs>
+	  <rect class="table-i" x="1" y="1" width="35.99" height="30.22" rx="3.3" ry="3.3"/>
+	  <g>
+	    <rect class="table-i" x="7.04" y="16.66" width="3.02" height="3.02"/>
+	    <line class="table-i" x1="13.36" y1="18.17" x2="30.95" y2="18.17"/>
+	  </g>
+	  <g>
+	    <rect class="table-i" x="7.04" y="21.6" width="3.02" height="3.02"/>
+	    <line class="table-i" x1="13.36" y1="23.12" x2="30.95" y2="23.12"/>
+	  </g>
+	  <rect class="table-i" x="7.04" y="6.49" width="24.18" height="7.14"/>
+	</symbol>
+	<symbol id="seo-i" viewBox="0 0 29.41 32.67">
+	  <defs>
+	    <style>
+	      .seo-i {
+	        fill: none;
+	      }
+	      .seo-i, .seo2-i {
+	        stroke-linecap: round;
+	        stroke-miterlimit: 10;
+	      }
+	      .seo2-i {
+	        fill: #d43840;
+	        stroke-width: 0.75px;
+	      }
+	    </style>
+	  </defs>
+	  <circle class="seo-i" cx="12.61" cy="12.61" r="11.61" transform="translate(-5.08 10.37) rotate(-37.78)"/>
+	  <path class="seo-i" d="M27.92,27.87a2.36,2.36,0,0,1-.42,3.31h0a2.36,2.36,0,0,1-3.31-.42l-3.89-5a2.36,2.36,0,0,1,.42-3.31h0a2.36,2.36,0,0,1,3.31.42Z"/>
+	  <g>
+	    <path class="seo2-i" d="M7.16,18.37v0l1-.75a1,1,0,0,0,.76.45,1.38,1.38,0,0,0,.86-.34,1.21,1.21,0,0,0,.48-.64.69.69,0,0,0-.14-.61.74.74,0,0,0-.56-.31,2.54,2.54,0,0,0-1,.22,5.05,5.05,0,0,1-1.78.4,1.46,1.46,0,0,1-1.19-.61,1.52,1.52,0,0,1-.27-1.38,2.58,2.58,0,0,1,1-1.38A2.63,2.63,0,0,1,8,12.76a1.61,1.61,0,0,1,1.3.66l0,0v0l-1,.77a.92.92,0,0,0-.67-.4,1.16,1.16,0,0,0-.79.29,1.05,1.05,0,0,0-.43.62.73.73,0,0,0,.15.61.63.63,0,0,0,.54.25,3.69,3.69,0,0,0,1-.24A4.09,4.09,0,0,1,9.88,15a1.58,1.58,0,0,1,1.19.65,1.5,1.5,0,0,1,.28,1.39,2.74,2.74,0,0,1-1,1.39,3,3,0,0,1-1.68.67,1.65,1.65,0,0,1-1.45-.71Z"/>
+	    <path class="seo2-i" d="M12.82,16.42,9,11.45,12.15,9l.59.77-2.18,1.69,1,1.25,1.84-1.43L14,12l-1.84,1.43,1.1,1.42,2.19-1.7.59.77Z"/>
+	    <path class="seo2-i" d="M15,11.47l-.69-.89a2.65,2.65,0,0,1-.6-2,2.49,2.49,0,0,1,1-1.75,2.53,2.53,0,0,1,2-.57,2.63,2.63,0,0,1,1.75,1.06l.69.89a2.64,2.64,0,0,1,.6,2,2.53,2.53,0,0,1-1,1.76,2.5,2.5,0,0,1-2,.56A2.65,2.65,0,0,1,15,11.47Zm1-.77a2,2,0,0,0,1,.74,1.18,1.18,0,0,0,1.08-.24,1.2,1.2,0,0,0,.51-1A1.94,1.94,0,0,0,18.16,9l-.7-.9a1.91,1.91,0,0,0-1-.73,1.21,1.21,0,0,0-1.09.25,1.17,1.17,0,0,0-.5,1A1.94,1.94,0,0,0,15.3,9.8Z"/>
+	  </g>
+	</symbol>
+	<symbol id="man-i" viewBox="0 0 32.18 34.24">
+	  <defs>
+	    <style>
+	      .man-i {
+	        fill: none;
+	        stroke-linecap: round;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <path class="man-i" d="M16.7,33.24A32.76,32.76,0,0,1,2.84,30.42,2.88,2.88,0,0,1,1,27.52c-.07-3,.9-4.59,3.87-5.8,1.71-.7,3.55-1.05,5.33-1.6a4.81,4.81,0,0,0,1.42-.67,1.53,1.53,0,0,0,.31-2.11c-.62-1.22-1.1-2.51-1.65-3.77-.13-.3-.32-.58-.47-.88-.42-.81-.87-1.61-1.24-2.44-.09-.21,0-.71.15-.78.58-.29.39-.74.36-1.16S9,7.46,9,7c-.27-7.88,13.41-8,14-.76,0,.32,0,.64,0,1a9.22,9.22,0,0,0,.26,2.36,3.12,3.12,0,0,1-.79,2.88,3.5,3.5,0,0,0-.71,1.33,9.32,9.32,0,0,1-1.58,3.79,1.31,1.31,0,0,0,.65,2c1.17.48,2.41.79,3.62,1.17a27.11,27.11,0,0,1,3.32,1.08c2.89,1.35,3.53,3.1,3.36,6.11a2.77,2.77,0,0,1-1.81,2.54A27.87,27.87,0,0,1,19.86,33C18.62,33.13,17.38,33.19,16.7,33.24Z"/>
+	</symbol>
+	<symbol id="graph-frame-i" viewBox="0 0 28.64 32.84">
+	  <defs>
+	    <style>
+	      .graph-frame-i {
+	        fill: none;
+	        stroke-linecap: round;
+	        stroke-miterlimit: 10;
+	      }
+	    </style>
+	  </defs>
+	  <rect class="graph-frame-i" x="1" y="1" width="26.64" height="30.84" rx="2" ry="2"/>
+	  <line class="graph-frame-i" x1="6.54" y1="10.84" x2="6.54" y2="24.84"/>
+	  <line class="graph-frame-i" x1="6.54" y1="24.84" x2="20.04" y2="24.84"/>
+	  <line class="graph-frame-i" x1="6.54" y1="19.92" x2="12.05" y2="16.42"/>
+	  <line class="graph-frame-i" x1="12.54" y1="16.42" x2="14.32" y2="19.01"/>
+	  <line class="graph-frame-i" x1="14.32" y1="19.01" x2="22.54" y2="13.01"/>
+	  <line class="graph-frame-i" x1="19.54" y1="12.34" x2="22.54" y2="12.59"/>
+	  <line class="graph-frame-i" x1="22.54" y1="12.59" x2="22.54" y2="15.34"/>
+	</symbol>
+	<symbol id="sales-i" viewBox="0 0 34.65 34.49">
+	  <defs>
+	    <style>
+	      .sales-i {
+	        fill: none;
+	        stroke-linecap: round;
+	      }
+	      .sales-i, .sales1-i { stroke-miterlimit: 10; }
+	      .sales1-i {
+	        font-size: 15.21px;
+	        stroke-width: 0.5px;
+	        fill: #d43840;
+	        font-family: Roboto-Bold, Roboto;
+	        font-weight: 700;
+	      }
+	    </style>
+	  </defs>
+	  <g>
+	    <path class="sales-i" d="M15.5,1.5a2.9,2.9,0,0,0,3.64,0A1.74,1.74,0,0,1,22,2.11a2.9,2.9,0,0,0,3.33,1.48A1.74,1.74,0,0,1,27.68,5.3,2.9,2.9,0,0,0,30.12,8a1.74,1.74,0,0,1,1.46,2.52A2.9,2.9,0,0,0,32.71,14a1.74,1.74,0,0,1,.3,2.9,2.9,2.9,0,0,0-.38,3.62,1.74,1.74,0,0,1-.9,2.77,2.9,2.9,0,0,0-1.82,3.16,1.74,1.74,0,0,1-2,2.17A2.9,2.9,0,0,0,25,30.76a1.74,1.74,0,0,1-2.66,1.19,2.9,2.9,0,0,0-3.56.76,1.74,1.74,0,0,1-2.91,0,2.9,2.9,0,0,0-3.56-.76,1.74,1.74,0,0,1-2.66-1.19,2.9,2.9,0,0,0-2.95-2.14,1.74,1.74,0,0,1-2-2.17,2.9,2.9,0,0,0-1.82-3.16A1.74,1.74,0,0,1,2,20.52a2.9,2.9,0,0,0-.38-3.62,1.74,1.74,0,0,1,.3-2.9,2.9,2.9,0,0,0,1.13-3.47A1.74,1.74,0,0,1,4.53,8,2.9,2.9,0,0,0,7,5.3,1.74,1.74,0,0,1,9.32,3.59a2.9,2.9,0,0,0,3.33-1.48A1.74,1.74,0,0,1,15.5,1.5Z"/>
+	    <path class="sales-i" d="M15.5,1.5a2.9,2.9,0,0,0,3.64,0A1.74,1.74,0,0,1,22,2.11a2.9,2.9,0,0,0,3.33,1.48A1.74,1.74,0,0,1,27.68,5.3,2.9,2.9,0,0,0,30.12,8a1.74,1.74,0,0,1,1.46,2.52A2.9,2.9,0,0,0,32.71,14a1.74,1.74,0,0,1,.3,2.9,2.9,2.9,0,0,0-.38,3.62,1.74,1.74,0,0,1-.9,2.77,2.9,2.9,0,0,0-1.82,3.16,1.74,1.74,0,0,1-2,2.17A2.9,2.9,0,0,0,25,30.76a1.74,1.74,0,0,1-2.66,1.19,2.9,2.9,0,0,0-3.56.76,1.74,1.74,0,0,1-2.91,0,2.9,2.9,0,0,0-3.56-.76,1.74,1.74,0,0,1-2.66-1.19,2.9,2.9,0,0,0-2.95-2.14,1.74,1.74,0,0,1-2-2.17,2.9,2.9,0,0,0-1.82-3.16A1.74,1.74,0,0,1,2,20.52a2.9,2.9,0,0,0-.38-3.62,1.74,1.74,0,0,1,.3-2.9,2.9,2.9,0,0,0,1.13-3.47A1.74,1.74,0,0,1,4.53,8,2.9,2.9,0,0,0,7,5.3,1.74,1.74,0,0,1,9.32,3.59a2.9,2.9,0,0,0,3.33-1.48A1.74,1.74,0,0,1,15.5,1.5Z"/>
+	  </g>
+	  <text class="sales1-i" transform="translate(12.05 22.43)">%</text>
+	</symbol>
+</svg>

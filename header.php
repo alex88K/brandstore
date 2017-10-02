@@ -7,13 +7,14 @@
             </button> 
             <a href="index.php" class="navbar-brand">
                <img src="img/logo.png" alt="Branstore">
+               <span class="sub-logo">продвижение<br/>и создание сайтов</span>  
             </a>
             <div class="contact-info">
-               <a href="mailto:mail@brandstore.ru"><span class="glyphicon glyphicon-envelope"></span>mail@brandstore.ru</a>
                <div class="contact-b">
-                  <a href="#"><span class="glyphicon glyphicon-earphone"></span>+7 (495) 201-35-65</a>
-                  <div class="time">ежедневно с 10 до 19</div>
+                   <a href="tel:+74952013565" class="tel">+7 (495) 201-35-65</a>
+                   <div class="time">ежедневно с 10 до 19</div>
                </div>
+               <a href="zakaz/" class="btn btn-w">Рассчитать стоимость</a>
             </div>
          </div>
          <div class="collapse navbar-collapse" id="bs-navbar-collapse">

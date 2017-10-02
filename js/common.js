@@ -143,13 +143,13 @@ $(document).ready(function() {
 		});
 	}
 
-	var topCarousel = $('#top-carousel .owl-carousel');
+	var clientsSlider = $('#clients .owl-carousel');
 
-	if (topCarousel.length > 0) {
-		topCarousel.owlCarousel({ 
+	if (clientsSlider.length > 0) {
+		clientsSlider.owlCarousel({ 
 			autoplay: false,
 			autoplayTimeout: 5000,
-			items: 1,
+			items: 6,
 			loop: true,
 			dots: false,
 			smartSpeed: 800,
@@ -157,17 +157,21 @@ $(document).ready(function() {
 		});
 	}
 
-	topCarousel.on('change.owl.carousel', function(event) {
-	   var $currentItem = $('.owl-item', topCarousel).eq(event.item.index);
-	   var $elemsToanim = $currentItem.find("[data-animation-out]");
-	   setAnimation ($elemsToanim, 'out');
-	});
+	var feedbackbSlider = $('#feedback-b-slider .owl-carousel');
 
-	topCarousel.on('changed.owl.carousel', function(event) {
-	   var $currentItem = $('.owl-item', topCarousel).eq(event.item.index);
-	   var $elemsToanim = $currentItem.find("[data-animation-in]");
-	   setAnimation ($elemsToanim, 'in');
-	});
+	if (feedbackbSlider.length > 0) {
+		feedbackbSlider.owlCarousel({ 
+			autoplay: false,
+			autoplayTimeout: 5000,
+			items: 1,
+			loop: true,
+			dots: false,
+			smartSpeed: 800,
+			fluidSpeed: 800,
+			nav: true,
+			navText: false,
+		});
+	}
 
 	function setAnimation ( _elem, _InOut ) {
 		var animationEndEvent = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
@@ -208,12 +212,10 @@ $(document).ready(function() {
 		body.animate({ scrollTop: in_h }, 1000);
 	});
 
-/*--Random TABs-----------------*/
+/*--Random photo in Blocks-----------------*/
 
-	var tabs = $('.nav-tabs li').length,
-		 i = parseInt(Math.floor(Math.random() * tabs));
-	
-	$('.nav-tabs a:eq(' + i + ') ').tab('show');
+	var i = parseInt(Math.floor(Math.random() * 3) + 1);
+	$('.home-top').css('backgroundImage', 'url(pic/top-carousel/bg-' + i + '.jpg)');
 
 /*--dropdown-toggle & hamburger toggle--------------------*/
 
@@ -225,6 +227,7 @@ $(document).ready(function() {
 
 	$('.navbar-toggle').on('click', function() {
 		$(this).toggleClass('on');
+		$('.main-header').toggleClass('on');
 	});
 
 /*--form signin-------------------------*/

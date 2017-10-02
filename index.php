@@ -150,75 +150,9 @@
          </div>
       </div>
    </div>
-   <div class="choice animation-elem">
-      <div class="container">
-         <div class="block-title">
-            <h2>Почему выбирают нас?</h2>
-         </div>
-         <div class="row">
-            <div class="col-md-10 col-md-push-1">
-               <ul class="nav nav-tabs" role="tablist">    
-                  <li role="presentation">
-                     <a href="#reliably" aria-controls="reliably" role="tab" data-toggle="tab">reliably</a>
-                  </li>
-                  <li role="presentation">
-                     <a href="#moneymaker" aria-controls="moneymaker" role="tab" data-toggle="tab">moneymaker</a>
-                  </li>
-                  
-                  <li role="presentation">
-                     <a href="#quality-control" aria-controls="quality-control" role="tab" data-toggle="tab">quality-control</a>
-                  </li>
-                  <li role="presentation">
-                     <a href="#complex" aria-controls="complex" role="tab" data-toggle="tab">complex</a>
-                  </li>
-              </ul>
-              <!-- Tab panes -->
-              <div class="tab-content">
-                  <div role="tabpanel" class="tab-pane active" id="reliably">
-                     <h3>Надежно</h3>
-                     <h4>Без сомнения: гарантии должны быть всегда!</h4>
-                     <ul class="tab-list">
-                        <li class="tab-list-item"><i class="set-i rise-i"></i>Продвижение сайтов осуществляется исключительно «белыми» методами, согласно правилам Яндекса и Гугла</li>
-                        <li class="tab-list-item"><i class="set-i chlist-i"></i>Работа по договору — юридические и финансовые гарантии</li>
-                        <li class="tab-list-item"><i class="set-i clock-i"></i>На рынке с 2009 года</li>
-                        <li class="tab-list-item"><i class="set-i case-i"></i>Имеем портфель текущих проектов с высокими результатами</li>
-                     </ul>
-                  </div>
-                  <div role="tabpanel" class="tab-pane" id="moneymaker">
-                     <h3>Выгодно</h3>
-                     <h4>Получай больше, чем всегда.</h4>
-                     <ul class="tab-list">
-                        <li class="tab-list-item"><i class="set-i list-i"></i>100% прозрачная система оплаты: без переплат и дополнительных расходов</li>
-                        <li class="tab-list-item"><i class="set-i wallet-i"></i>В некоторых тарифах действует система «оплаты по факту»</li>
-                        <li class="tab-list-item"><i class="set-i disc-i"></i>Наши услуги дешевле, чем у других на 20% и более</li>
-                        <li class="tab-list-item"><i class="set-i stick-i"></i>Включаем бонусные (бесплатные) запросы</li>
-                     </ul>
-                  </div>
-                  <div role="tabpanel" class="tab-pane" id="quality-control">
-                     <h3>Контроль качества</h3>
-                     <h4>Следите за нашей работой.</h4>
-                     <ul class="tab-list">
-                        <li class="tab-list-item"><i class="set-i screen-i"></i>Мониторинг и отслеживание позиций сайта в личном кабинете</li>
-                        <li class="tab-list-item"><i class="set-i chlist-i"></i>Ежемесячная отчетность о проделанной работе</li>
-                        <li class="tab-list-item"><i class="set-i bulb-i"></i>Рекомендации по улучшению сайта — ежемесячно или индивидуально</li>
-                        <li class="tab-list-item"><i class="set-i tips-i"></i>Мы всегда на связи — оперативная обратная связь</li>
-                     </ul>
-                  </div>
-                  <div role="tabpanel" class="tab-pane" id="complex">
-                     <h3>Полный комплекс работ</h3>
-                     <h4>Кроме раскрутки сайта мы анализируем проекты, делаем аудит и юзабилити сайтов.</h4>
-                     <ul class="tab-list">
-                        <li class="tab-list-item"><i class="set-i search-i"></i>Проводим аудит сайта по разным параметрам (технический, юзабилити и др.)</li>
-                        <li class="tab-list-item"><i class="set-i tip-i"></i>Даем рекомендации по визуальной и технической части сайта</li>
-                        <li class="tab-list-item"><i class="set-i graph-i"></i>Работаем с поведенческими факторами</li>
-                        <li class="tab-list-item"><i class="set-i like-i"></i>Улучшаем репутацию и другие показатели сайта</li>
-                     </ul>
-                  </div> 
-              </div>
-            </div>
-         </div>
-      </div>
-   </div>
+   
+   <?php include_once "blocks/choice.php" ?>
+
    <div class="services animation-elem">
       <div class="container">
          <div class="block-title">
@@ -284,51 +218,8 @@
    </div>
 
    <?php include_once "blocks/projects.php" ?>
+   <?php include_once "blocks/proposal.php" ?>
 
-   <div class="proposal">
-      <div class="bg-form"></div>
-      <div class="proposal-inner">
-         <!-- <div class="container">  
-            <h3>Получить бесплатный расчет коммерческого предложения</h3>
-            <form action="#" class="proposal-form">
-               <div class="row">
-                  <div class="col-md-3">
-                     <div class="form-group">
-                        <label for="name">Ваше имя</label>
-                        <input type="text" class="form-control" id="name" required placeholder="Ваше имя">
-                     </div>
-                  </div>
-                  <div class="col-md-3">
-                     <div class="form-group">
-                        <label for="phone">Номер телефона</label>
-                        <input type="phone" class="form-control" id="phone" required placeholder="Номер телефона">
-                     </div>
-                  </div>
-                  <div class="col-md-3">
-                     <div class="form-group">
-                        <label for="email">E-mail</label>
-                        <input type="email" class="form-control" id="email" required placeholder="E-mail">
-                     </div>
-                  </div>
-                  <div class="col-md-3">
-                     <div class="form-group">
-                        <label for="site">Адрес сайта</label>
-                        <input type="text" class="form-control" id="site" required placeholder="Адрес сайта">
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <input type="submit" class="btn btn-lg btn-primary" value="Получить">
-               </div>
-            </form>
-         </div> -->
-         <div class="container">  
-            <h3>Хотите узнать стоимость продвижения Вашего сайта?</h3>
-            <p>Отправьте нам запрос на рассчет Вашего проекта. Мы вышлем максимально подробную информацию по продвижению Вашего проекта, а также сообщим и сроки.</p>
-         </div>
-      </div>
-      <button class="btn btn-lg btn-red" data-toggle="modal" data-target="#sendmail-form">Получить</button>
-   </div>
    <div class="clients">
       <div class="container">
          <div class="block-title">

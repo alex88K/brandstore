@@ -8,7 +8,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-
 	.form-order {
 		input[type="text"],
 		input[type="tel"],
@@ -33,18 +32,23 @@
 		vertical-align: top;
 		color: rgba(255,255,255,.8);
 		.glyphicon { 
-			right: 18px; 
-			margin-top: -6px;
+			right: 8px; 
+			margin-top: 16px;
 		}
 		&:hover .glyphicon-menu-right,
 		&:focus .glyphicon-menu-right { color: #fff; }
+	}
+
+	.main-header.on { 
+		height: 100%;
+		min-height: 100%;
+		background-color: rgba(0,0,0,.8); 
 	}
 
 	.navbar {
 		-webkit-transition: all .4s ease-in-out;
 		-o-transition: all .4s ease-in-out;
 		transition: all .4s ease-in-out;
-		.navbar-header { text-align: center; }
 		& .navbar-toggle { display: block; }
 		.navbar-collapse.collapse { 
 			display: none !important; 
@@ -53,7 +57,6 @@
 		.nav {
 			float: none !important;
 			padding: 0 0 15px 0;
-			background-color: rgba(0,0,0,.8);
 			.open > .dropdown-menu { display: block !important; }
 			li {
 				display: block;
@@ -74,7 +77,7 @@
 	.open > a {
 		background-color: rgba(80,80,80,.5) !important;
 		.glyphicon {
-			right: 18px;
+			right: 8px;
 			-webkit-transform: rotate(180deg);
 			-ms-transform: rotate(180deg);
 			-o-transform: rotate(180deg);
@@ -98,10 +101,11 @@
 			&:focus { background-color: transparent; }
 		}
 	}
+
 	.dropdown-submenu {
 		top: 0;
 		.glyphicon {
-			right: 18px;
+			right: 8px;
 			color: rgba(255, 255, 255, .75);
 			-webkit-transform: rotate(90deg);
 			-ms-transform: rotate(90deg);

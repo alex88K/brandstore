@@ -1,11 +1,11 @@
 <div class="tariff">
-   <div class="container">
+   <div class="container reveal-anim">
       <div class="block-title block-title-l">
          <h2>Тарифы и стоимость</h2>
       </div>
       <div class="tariff-list">
          <div class="row">
-            <div class="col col-md-4 col-sm-6">
+            <div class="col col-md-4 col-sm-12">
                <div class="tariff-item">
                   <h3 class="tariff-title">Тариф <span>&laquo;Оплата за позиции&raquo;</span></h3>
                   <div class="tariff-info">
@@ -16,11 +16,11 @@
                   </ul>
                   <div class="promo-box-bottom">
                      <div class="promo-box-price">от<span>19 000</span>&#8381;/месяц</div>
-                     <a href="request-promotion.php" class="btn btn-primary">Отправить заявку</a>
+                     <a href="/zakaz" class="btn btn-primary">Отправить заявку</a>
                   </div>
                </div>
             </div>
-            <div class="col col-md-4 col-sm-6">
+            <div class="col col-md-4 col-sm-12">
                <div class="tariff-item">
                   <h3 class="tariff-title">Тариф <span>«Оплата за переходы»</span></h3>
                   <div class="tariff-info">
@@ -31,11 +31,11 @@
                   </ul>
                   <div class="promo-box-bottom">
                      <div class="promo-box-price">от<span>27 000</span>&#8381;/месяц</div>
-                     <a href="traffic-promotion.php" class="btn btn-primary">Отправить заявку</a>
+                     <a href="/zakaz" class="btn btn-primary">Отправить заявку</a>
                   </div>
                </div>
             </div>
-            <div class="col col-md-4 col-sm-6 col-md-offset-0 col-sm-offset-3">
+            <div class="col col-md-4 col-sm-12">
                <div class="tariff-item">
                   <h3 class="tariff-title">Тариф <span>«Молодой сайт»</span></h3>
                   <div class="tariff-info">
@@ -51,7 +51,7 @@
                   </ul>
                   <div class="promo-box-bottom">
                      <div class="promo-box-price">от<span>25 000</span>&#8381;/месяц</div>
-                     <a href="traffic-promotion.php" class="btn btn-primary">Отправить заявку</a>
+                     <a href="/zakaz" class="btn btn-primary">Отправить заявку</a>
                   </div>
                </div>
             </div>

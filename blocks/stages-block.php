@@ -1,5 +1,5 @@
 <div class="stages-b">
-	<div class="container">
+	<div class="container reveal-anim">
       <div class="block-title block-title-l">
          <h2>Этапы</h2>
       </div>
@@ -26,6 +26,5 @@
             </div>
          </div>
       </div>
-
    </div>
 </div>

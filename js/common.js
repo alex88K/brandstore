@@ -154,6 +154,13 @@ $(document).ready(function() {
 			dots: false,
 			smartSpeed: 800,
 			fluidSpeed: 800,
+			responsive: {
+				1200: { items: 6 },
+				991: { items: 4 },
+				650: { items: 3 },
+				480: { items: 2 },
+				0: { items: 1 },
+			}
 		});
 	}
 
@@ -199,9 +206,11 @@ $(document).ready(function() {
 
 /*------------------------------------*/ 
 
-	$("input[name='m-phone'").mask("+7 (999) 999-9999");
+	if( $('input[name="m-phone"]').length ) {
+		$('input[name="m-phone"]').mask("+7 (999) 999-9999");
+	}
 
-	baguetteBox.run('.letter-gallery');
+	baguetteBox.run('.letter-gallery, .lightbox');
 
 	$('#top-details').on('click', function(e) {
 		e.preventDefault();

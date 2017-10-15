@@ -1,7 +1,7 @@
 <div class="home-top">
-   <div class="container">
-   	<h1 class="title">Продвижение сайта в ТОП-10<br/>Яндекса и Google</h1>
-   	<h2>Комплексный подход. Белые методы.<br/>Гарантия результата</h2>
+   <div class="container reveal-anim">
+   	<h1 class="title">Продвижение сайта в ТОП-10 Яндекса и Google</h1>
+   	<h2>Комплексный подход. Белые методы. Гарантия результата</h2>
    	<a href="" class="btn btn-w">Отправить заявку</a>
    	<div class="list-h">Результат</div>
    	<ul>

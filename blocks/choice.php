@@ -1,5 +1,5 @@
 <div class="choice">
-   <div class="container">
+   <div class="container reveal-anim">
       <div class="block-title block-title-l">
          <h2>Наши преимущества</h2>
       </div>

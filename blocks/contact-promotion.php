@@ -1,13 +1,13 @@
 <div class="contact-promotion">
-	<div class="container">
+	<div class="container reveal-anim">
 		<div class="row">
-			<div class="col-md-6 col-sm-6">
+			<div class="col-md-7 col-sm-5">
 				<div class="block-title block-title-l">
 					<h2>Отправьте заявку на оценку продвижения Вашего сайта</h2>
 					<img src="img/bstore.png" alt="">	
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-6">
+			<div class="col-md-4 col-sm-7">
 				<div class="list-head">В результате Вы получите:</div>
 				<ul>
 					<li><svg class="table-i"><use xlink:href="#table-i"></use></svg>подбор ключевых запросов - бесплатно!</li>
@@ -19,7 +19,7 @@
 					<li><svg class="man-i"><use xlink:href="#man-i"></use></svg>анализ конкурентов вашего бизнеса</li>
 				</ul>
 				<div class="btn-group">
-					<a href="/" class="btn btn-red">Получите бесплатный анализ сайта</a>
+					<a href="/zakaz" class="btn btn-red">Получите бесплатный анализ сайта</a>
 				</div>
 			</div>
 		</div>

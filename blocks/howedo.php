@@ -1,4 +1,4 @@
-<div class="howedo">
+<div class="howedo reveal-anim">
 	<div class="container">
 		<div class="block-title block-title-l">
          <h2>Как мы продвигаем</h2>

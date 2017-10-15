@@ -1,5 +1,5 @@
 <div class="advantages2-b">
-	<div class="container">
+	<div class="container reveal-anim">
 		<div class="block-title">
 			<h2>Каждый тариф решает определенные задачи.</h2>
 			<div class="subtitle">Наши клиенты гарантированно получают ряд преимуществ, работая с нами.</div>
